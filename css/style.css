@@ -1,0 +1,156 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+ .navbar{
+  padding:20px;
+}
+.navbar-brand{
+  width: 50%;
+}
+.navbar img{
+  margin-left: 20px;
+  max-width: 40%;
+  border-radius: 100%;
+}
+.navbar-toggler{
+  font-size: 0.5rem;
+}
+button{
+  margin-right: 20px;
+}
+.nav-item{
+  text-align: center;
+}
+.nav-links{
+  text-decoration: none;
+  color: rgba(0,0,0,.55);
+
+  padding: 0.5rem;
+
+  display: block;
+
+}
+.nav-links:hover{
+  color: white;
+}
+/* navbar closed */
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+h1{
+  text-align: center;
+  padding: 10px;
+   font-family: serif;
+}
+p{
+  padding: 10px;
+}
+/* Overlay closed */
+.services-p{
+  color:white;
+  background-color: black;
+}
+.C2{
+padding-top: 50px;
+}
+.C2 .moto-cell{
+  overflow: hidden;
+align-items: center;
+}
+.C2 .moto-cell img{
+  transition: transform 1s;
+}
+.C2 .moto-cell:hover img{
+
+   transform: scale(1.1);
+}
+.services_img {
+  height: 80%;
+}
+.moto-cell .img_content{
+  background-color: #0dcaf0;
+    text-align: center;
+    color: black;
+}
+/* Footer */
+.C3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #4F4F4F;
+}
+.C3 h1{
+  color: white;
+}
+h2{
+  font-size: 1.3rem;
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin:20px ;
+  width: 50%;
+  border-radius: 30px;
+}
+.C3 img{
+  padding-top: 10px;
+  border-radius: 100%;
+}
+.C3 i{
+
+  margin: 10px;
+}
+.C3 .fa-instagram{
+  color:#E57373;
+}
+.C3 .fa-instagram:hover{
+  color: #D50000;
+}
+.C3 .fa-youtube{
+  color:#FF1744;
+}
+.C3 .fa-youtube:hover{
+  color: #D50000;
+}
+.C3 .social-media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#contact .row{
+  padding: 20px;
+  background-color: black;
+  color:white;
+}
+.moto-cell{
+  text-align: center;
+}
+#contact .moto-cell a{
+  text-decoration: none;
+   color: #4F4F4F;
+}
+
+#contact .foot-contact a{
+  padding-right: 10px;
+}
+#contact .foot-contact a:hover{
+  color:white;
+}
+#contact .usefull-links a:hover{
+  padding-left:10px;
+  color: white;
+}
